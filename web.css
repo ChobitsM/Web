@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+header img {
+    height: 150px;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu>li {
+    line-height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.menu>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.menu>li:hover {
+    background-color: rgb(255, 165, 0);
+    transition: ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+    -webkit-transition: ease-in 0.5s;
+}
+
+.sub_menu {
+    position: absolute;
+}
+
+.sub_menu>li {
+    width: 215px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #ccc;
+    display: none;
+}
+
+.sub_menu>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.sub_menu>li:hover {
+    background-color: rgb(255, 165, 0);
+    transition: ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+    -webkit-transition: ease-in 0.5s;
+}
+
+.menu>li:hover .sub_menu>li {
+    display: block;
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.product {
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.product img {
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-indent: 50px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.list1>li {
+    height: 270px;
+    width: 30%;
+    border: 1px solid blue;
+    background-color: yellowgreen;
+}
+
+.s {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list2>li {
+    height: 270px;
+    width: 30%;
+    border: 1px solid blue;
+    background-color: yellowgreen;
+    margin-top: 5px;
+}
+
+.mid {
+    height: 600px;
+    width: 20%;
+}
+
+.search {
+    border: 1px solid blue;
+    height: 289px;
+    background-color: lightgreen;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input {
+    flex: 1;
+    height: 20px;
+}
+
+select {
+    width: 90%;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+button {
+    height: 25px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.right {
+    height: 600px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bag {
+    height: 170px;
+    border: 3px solid rgb(235, 86, 145);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+}
+
+h3 {
+    text-align: center;
+    height: 40px;
+    background-color: rgb(235, 86, 145);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 40px;
+}
+
+span {
+    text-align: center;
+}
+
+.support {
+    margin-top: 5px;
+    height: 130px;
+    border: 3px solid rgb(235, 86, 145);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+}
+
+.news {
+    margin-top: 5px;
+    height: 285px;
+    border: 3px solid rgb(235, 86, 145);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(235, 86, 145);
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.text1 {
+    margin-top: 10px;
+    color: rgb(235, 86, 145);
+    text-indent: 90px;
+    font-weight: 600;
+}
+
+.text2 {
+    margin-top: 10px;
+    color: rgb(235, 86, 145);
+    text-indent: 90px;
+    font-weight: 600;
+}
+
+hr {
+    margin-left: 5%;
+    height: 2px;
+}
+
+.news>li {
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    height: 40px;
+    background-color: black;
+}
