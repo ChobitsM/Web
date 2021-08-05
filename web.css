@@ -10,12 +10,12 @@
 }
 
 header {
-    height: 150px;
+    height: 300px;
     width: 100%;
 }
 
 header img {
-    height: 150px;
+    height: 300px;
     width: 100%;
 }
 
@@ -42,19 +42,20 @@ a {
 }
 
 .menu>li {
+    height: 50px;
     line-height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
 }
 
 .menu>li>a {
-    color: white;
     font-weight: bold;
+    color: yellow;
 }
 
 .menu>li:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: blueviolet;
     transition: ease-in 0.5s;
     -moz-transition: ease-in 0.5s;
     -webkit-transition: ease-in 0.5s;
@@ -72,12 +73,12 @@ a {
 }
 
 .sub_menu>li>a {
-    color: white;
     font-weight: bold;
+    color: yellow;
 }
 
 .sub_menu>li:hover {
-    background-color: rgb(255, 165, 0);
+    background-color: blueviolet;
     transition: ease-in 0.5s;
     -moz-transition: ease-in 0.5s;
     -webkit-transition: ease-in 0.5s;
@@ -112,7 +113,7 @@ a {
 .title {
     height: 40px;
     width: 100%;
-    background-color: blue;
+    background-color: red;
     color: white;
     text-indent: 50px;
     font-weight: bold;
@@ -156,7 +157,6 @@ a {
 }
 
 .search {
-    border: 1px solid blue;
     height: 289px;
     background-color: lightgreen;
     box-sizing: border-box;
